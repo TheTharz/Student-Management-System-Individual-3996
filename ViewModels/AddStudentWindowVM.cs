@@ -106,6 +106,7 @@ namespace DesktopApplication.ViewModels
             }
             if(Student.FirstName!= null)
             {
+                //shutting down the application
                 CloseAction();
             }
             Application.Current.MainWindow.Show();

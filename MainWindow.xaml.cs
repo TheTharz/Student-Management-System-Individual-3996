@@ -24,6 +24,7 @@ namespace DesktopApplication
     {
         public MainWindow()
         {
+            //data context has this one
             DataContext = new MainWindowVM();
             InitializeComponent();
         }

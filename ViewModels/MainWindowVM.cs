@@ -22,7 +22,7 @@ namespace DesktopApplication.ViewModels
         public Student selectedStudent;
 
 
-        //command for adding new students in the objects
+        //command for adding new students
         [RelayCommand]
         public void AddNewStudents()
         {
@@ -91,6 +91,10 @@ namespace DesktopApplication.ViewModels
             BitmapImage demo = new BitmapImage(new Uri("/Images/1.png",UriKind.Relative));
 
             //sample for the testing purpose
+            //
+            //
+            //
+            //
             students.Add(new Student("Tharindu","Imalka","tharindtcc","horana",dateTime,demo,3.5));
             students.Add(new Student("Tharindu", "Imalka", "tharindtcc", "horana", dateTime, demo, 3.5));
             students.Add(new Student("Tharindu", "Imalka", "tharindtcc", "horana", dateTime, demo, 3.5));
