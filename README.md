@@ -29,10 +29,4 @@ This is a desktop application developed using WPF (Windows Presentation Foundati
 4. To delete a student, select a student from the list and click on the "Delete" button.
 5. Click on the "Exit" button to close the application.
 
-### Contributing
-Contributions are welcome! If you find any issues or have suggestions for enhancements, feel free to open an issue or submit a pull request.
-
-### Acknowledgments
-This project utilizes the [CommunityToolkit.Mvvm](https://github.com/windows-toolkit/CommunityToolkit-Mvvm) library for MVVM support in WPF applications.
-
 **Note:** The sample data provided in the `MainWindowVM` constructor is for testing purposes and can be modified or replaced with real data.
